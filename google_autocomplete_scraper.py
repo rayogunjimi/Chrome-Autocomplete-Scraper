@@ -1,7 +1,7 @@
 import requests
 import json 
 
-searchword = "hello"
+searchword = ""
 
 URL="http://suggestqueries.google.com/complete/search?client=firefox&q=" + searchword
 #URL="http://suggestqueries.google.com/complete/search?client=chrome&q=" + searchword
